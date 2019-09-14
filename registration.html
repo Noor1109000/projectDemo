@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bano</title>
+    <script src="./js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,800&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="./css/animate.css">
+      <link rel="stylesheet" href="./css/responsive.css">
+   <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+
+    <style>
+        body{
+           background: #F2F2F2; 
+           font-family: 'Poppins', sans-serif;
+           height: 100vh;
+        }
+
+        #login{
+            background: linear-gradient(rgba(0,128,0,.3),rgba(0,128,0,.5)), url("img/banner-2.jpeg") center/cover fixed no-repeat;
+        }
+
+
+    .viewport_100 {
+        min-height: 100vh;
+    }
+
+    .login_form {
+        background: white;
+        border-radius: 10px;
+        padding: 35px 40px 30px 40px;
+    }
+
+    .login_form form .form-group input, .login_form form .input-group{
+        border-bottom: 2px solid #ced4da !important;
+        border-radius: 0px;
+    }
+
+    .login_form_button.bg-grad {
+        border-radius: 25px;
+    }
+
+    .bg-grad {
+        background: linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+        background: -moz-linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+        background: -webkit-linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+    }
+
+    .input-group-text{
+        border: 0px;
+        background: transparent;
+    }
+
+    .signUpForm{
+        background: white;
+    padding: 45px;
+    border-radius: 16px;
+    }
+
+    .signUpTitle,.form_button button,.input-group-text{
+        color: green;
+    }
+
+    form#contact_form .input-group {
+    border-bottom: 1px solid green;
+}
+
+.form_button {
+    border: 1px solid green;
+    width: 12em;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+input[type="text"]::placeholder,input[type="password"]::placeholder,input[type="email"]::placeholder{
+    font-size: 14px;
+    color: green;
+}
+
+.from_social_icons.text-center.mt-4.d-flex.justify-content-center a{
+    font-size: 24px;
+    color: green;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.form-control:focus{
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0px 0px 0px transparent; 
+}
+
+input{
+    color: green !important;
+}
+
+    </style>
+
+</head>
+<body>
+  
+ <section id="login">
+     <div class="container">
+         <div class="row viewport_100 justify-content-center align-items-center">
+             <div class="col-md-6 col-lg-6">
+                    <div class="signUpForm">
+                                     <div class="signUpTitle text-center">
+                                         <h2>Sign up</h2>
+                                     </div>
+                                     <form id="contact_form" >
+                                        <div class="input-group my-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fas fa-user"></i>
+                                                </span>
+                                            </div>
+                                            <input type="text" placeholder="enter name here" class="form-control text-capitalize form-control-lg border-0">                       
+                                        </div>
+                                        <div class="input-group my-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <i class="fas fa-envelope"></i>
+                                                </span>
+                                            </div>
+                                            <input type="email" placeholder="enter email" class="form-control text-capitalize form-control-lg border-0">                       
+                                        </div>
+                                        
+                                        <div class="input-group mb-3">
+                                            
+                                            <div class="input-group-prepend">
+                                                    <span class="input-group-text border-0  bg-transparent " id="basic-addon1">
+                                                        <i class="fas fa-lock"></i>
+                                                    </span>
+                                                    
+                                            </div>                                     
+                                           <input type="password" class="form-control border-0" placeholder="Enter password">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text border-0  bg-transparent " id="basic-addon1">
+                                                    <i class="far fa-eye"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="input-group mb-3">
+                                            
+                                            <div class="input-group-prepend">
+                                                    <span class="input-group-text border-0  bg-transparent " id="basic-addon1">
+                                                        <i class="fas fa-lock"></i>
+                                                    </span>
+                                                    
+                                            </div>                                     
+                                           <input type="password" class="form-control border-0" placeholder="Enter confirm password">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text border-0  bg-transparent " id="basic-addon1">
+                                                    <i class="far fa-eye"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="form_button text-center">
+                                            <button class="btn">Register</button>
+                                         </div>
+                
+                                     </form>
+
+                                     <div class="from_social_icons text-center mt-4 d-flex justify-content-center">
+                                         <a href=""><i class="fab fa-facebook "></i></a>
+                                         <a href=""><i class="fab fa-twitter "></i></a>
+                                         <a href=""><i class="fab fa-instagram"></i></a>
+                                         <a href=""><i class="fab fa-linkedin"></i></a>
+                                         
+                                     </div>
+                                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+
+  <!-- modal section -->
+  <!-- Button trigger modal -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+  
+</body>
+</html>

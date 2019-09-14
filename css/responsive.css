@@ -1,0 +1,106 @@
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px)and (max-width: 5000.98px){
+
+}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .card_body_img {
+        top: 50%;
+
+    }
+    
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .logo{
+        width: 25%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .logo a{
+        margin: 0px;
+        padding-right: 0px;
+    }
+
+    div#navbarText{
+        text-align: center;
+    }
+
+    .card_body_img {
+        top: 60%;
+    }
+
+
+input[type="text"]::placeholder{
+    font-size: 10px;
+}
+
+
+  
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .logo{
+        width: 25%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .logo a{
+        margin: 0px;
+        padding-right: 0px;
+        margin-left: 1.8em;
+    }
+
+    div#navbarText{
+        text-align: center;
+    }
+
+    .card_body_img {
+        top: 70%;
+    }
+
+    input[type="text"]::placeholder,input[type="password"]::placeholder,input[type="email"]::placeholder{
+        font-size: 10px;
+    }
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .logo{
+        width: 25%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .logo a{
+        margin: 0px;
+        padding-right: 0px;
+        margin-left: 1em;
+    }
+
+    .card_body_img {
+        top: 55%;
+    }
+
+
+
+    div#navbarText{
+        text-align: center;
+    }
+
+    .slide_item img{
+        min-height:50vh;
+      } 
+
+
+    /* ======= login and registration form==== */
+    input[type="text"]::placeholder,input[type="password"]::placeholder,input[type="email"]::placeholder{
+        font-size: 10px;
+    }
+}
+

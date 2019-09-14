@@ -1,0 +1,153 @@
+
+/* ========= Main body========= */
+body{
+    font-family: 'roboto', sans-serif;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.viewport_15{
+    min-height: 15vh;
+}
+
+.viewport_100{
+  min-height: 100vh;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+}
+.subtitle{
+  font-size: 14px;
+  color: #777;
+}
+
+/* ============= header section============ */
+
+header {
+    height: 100%;
+    background: green;
+}
+
+header ul.navbar-nav li a {
+  color: white !important;
+}
+
+
+.logo a {
+  font-size: 32px;
+  font-weight: bold;
+  color: white !important;
+}
+
+.input_grop_border {
+  border-bottom: 1px solid rgba(255, 255, 255,.5);
+  border-radius: 0px;
+}
+
+
+
+.input-group.mb-3.input_grop_border.pr-4 input[type="text"]::placeholder {
+  color: white;
+}
+
+span.navbar-text.ml-auto.search_box button {
+  color: white;
+  border: 1px solid rgba(255,255,255,.2);
+}
+
+span.navbar-text.ml-auto input {
+  background: no-repeat;
+  color:white;
+}
+
+.input_grop_border button {
+  color: white;
+}
+.form-control:focus{
+  box-shadow: 0 0 0 0 transparent;
+}
+
+
+/* =========== slider section=========== */
+
+ .slide_item img{
+  max-height: 100vh;
+} 
+
+.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 40%;
+  font-size: 36px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  background: rgb(0, 0, 0,.5);
+  line-height: 36px !important;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: 0px;
+  top: 40%;
+  font-size: 36px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  background: rgb(0, 0, 0,.5);
+  line-height: 36px !important;
+}
+
+
+.owl-dots{
+  display: none;
+}
+
+/* ========= content section============ */
+
+#content{
+  background: #ECF3F3;
+}
+.card_header_position{
+  position: relative;
+}
+
+.card_body_img {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  width: 80px;
+  height: 80px;
+  border: 6px solid white;
+}
+
+.card_context h3{
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.card_context_para {
+  font-size: 1em;
+}
+
+
+.full_height_img {
+  background: url("../img/team-1.jpg")center/cover no-repeat;
+  height: 500px;
+}
+
+section#content .card-footer {
+  background: #ECF3F3;
+}
+.card{
+  box-shadow: 2px 1px 5px rgba(0, 128, 0,.1);
+}
+
+.card_context h2,.card_context h3,.card_context_para,.item-01.d-flex.flex-row,.card_images span{
+  color: green;
+}
+
